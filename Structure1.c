@@ -9,6 +9,7 @@ struct book
 }book1;
 int main()
 {
+
 	book1.bookid=456;
 	strcpy(book1.title,"Maths");
 	book1.price=400;
@@ -17,7 +18,7 @@ int main()
 	printf("\ntitle of this book= %s",book1.title);
 	printf("\nprice of this book= %d",book1.price);
 }
-________________________________________________________________________________
+/*________________________________________________________________________________
 
 
 //create a simple book structure member accepting the values 3
@@ -135,7 +136,7 @@ int main()
     printf("price = %d\n",book3.price);
     
     printf("------------------------------------------------------------");
-}
+}*/
 
 
 
